@@ -18,11 +18,6 @@ namespace MohawkGame2D
         float transitionTimer;
         int countdownDisplay;
 
-        bool showScene1 = true;
-        bool showScene2 = false;
-        bool showInterrogation = false;
-        bool showInterrogationYes = false;
-        bool showInterrogationNo = false;
 
         
 
@@ -31,9 +26,7 @@ namespace MohawkGame2D
         /// </summary>
         public void Setup()
         {
-            Window.SetSize(800, 800);
-            Window.SetTitle("Test");
-            Window.TargetFPS = 60;
+
         }
 
         /// <summary>
